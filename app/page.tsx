@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
