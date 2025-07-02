@@ -16,12 +16,20 @@ export default function Home() {
       {/* Sidebar */}
       <aside className="bg-[#944E30] text-white w-64 min-h-screen p-6 sticky top-0 flex flex-col items-center">
         <h1 className="text-3xl font-bold text-center leading-tight">
-          NIKITHA <br />
-          <span className="text-orange-200">SRI</span>
+          NIKITHA SRI GARAPATI <br />
         </h1>
-        <p className="text-sm mt-2 text-center">
-          nikithagarapati168@gmail.com <br /> +1-315-567-7983
-        </p>
+        <div className="mt-4 flex space-x-4">
+          <a
+          href="https://www.linkedin.com/in/nikithagarapati/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:underline">LinkedIn</a>
+          <a
+          href="https://github.com/nikithasri-168"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:underline">GitHub</a>
+        </div>
 
         <nav className="mt-10 space-y-4 text-center">
           {sections.map((section) => (
@@ -42,7 +50,7 @@ export default function Home() {
         <section id="about" className="scroll-mt-24">
           <h2 className="text-2xl font-semibold text-[#944E30] mb-2">About</h2>
           <p>
-            I'm a passionate Java developer and MS in Applied Computer Science student at Northwest Missouri State University. My work focuses on AI, cloud-based systems, and mobile-first applications. I love crafting impactful digital experiences that combine deep technical skill with thoughtful design.
+            I'm a passionate software developer with Master's in Applied Computer Science. I specialize in designing full-stack applications using modern frameworks and scalable architecture. My goal is to build secure, performant, and user-friendly software that creates real-world impact.
           </p>
         </section>
 
